@@ -1,0 +1,19 @@
+Carpeta diseñada para ir exibiendo de a poco mi codigo de Machine Learning:
+
+En la primer versión tengo la funcion nncf la cual toma como argumentos:
+
+Esta funcion fue diseñada para entrenar a una red neuronal que toma como inputs pixeles de una imagen de 20x20 de un digito entre el 0 y el 9 en escala de grises y debe aprender a identificar que digito es.
+
+Nota: el digito 0 es representado por el 10 para facilitar los ciclos ya que los indices de arreglos en este lenguaje comienzan en 1. 
+
+<>Theta1:Es el arreglo con los pesos que afectaran a la capa de inputs.
+
+<>Theta2:Es el arreglo con los pesos que afecta a la capa oculta (hidden layer).
+
+<>X:Matriz de R(m*n). Donde m es la el tamaño del conjunto de entrenamiento y n la cantidad de  caracteristicas/parametros de entrada(inputs).
+
+<>y:Matriz de R(m*1). Contiene los elementos resultados del conjunto de entrenamiento los cuales son numeros enteros consecutivos.
+
+<>k:Número escalar que indica cual es la cantidad de clasificaciones que debe hacer la red.
+
+<>lambda: Parámetro de regularización. Numero de dimensión escalar.
